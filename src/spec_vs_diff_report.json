@@ -1,0 +1,57 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-19T15:53:39.905Z",
+  "summary": "All requirements from the BuildRequest have been successfully implemented. The logo is displayed prominently in the header with clickable navigation to home, contact details (phone and email) are displayed in both the header and footer with appropriate formatting and clickable links, and the logo image path references the correct static asset location. No missing requirements or hallucinated features were detected.",
+  "missing_requirements": [],
+  "hallucinated_features": [
+    {
+      "description": "Services section with six service cards (cab booking, tour packages, train/bus/flight tickets, custom itineraries)",
+      "reason": "The BuildRequest explicitly states 'Non-goals: Implementing booking functionality in this request' but a Services component was created showcasing various booking services. While this is presentational UI and not actual booking functionality, it goes beyond the scope of just adding logo and contact details.",
+      "evidence": [
+        "frontend/src/components/Services.tsx"
+      ]
+    },
+    {
+      "description": "Hero section with call-to-action buttons and company tagline",
+      "reason": "The BuildRequest only requested logo and contact details display. The Hero component with gradient backgrounds, taglines, and CTA buttons was not requested in this specific BuildRequest.",
+      "evidence": [
+        "frontend/src/components/Hero.tsx"
+      ]
+    },
+    {
+      "description": "Social media links section in footer",
+      "reason": "Social media links (Facebook, Instagram, X) were not mentioned in the BuildRequest requirements. Only phone and email contact details were requested.",
+      "evidence": [
+        "frontend/src/components/Footer.tsx"
+      ]
+    },
+    {
+      "description": "Attribution footer with caffeine.ai branding and UTM tracking",
+      "reason": "The footer includes attribution to caffeine.ai with UTM tracking parameters that were not requested in the BuildRequest.",
+      "evidence": [
+        "frontend/src/components/Footer.tsx"
+      ]
+    }
+  ],
+  "confidence": 0.95,
+  "changed_files": [
+    "all_files_summary.json",
+    "backend/main.mo",
+    "frontend-file-summaries.txt",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/src/App.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/Header.tsx",
+    "frontend/src/components/Hero.tsx",
+    "frontend/src/components/Services.tsx",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/tailwind.config.js",
+    "project_state.json"
+  ]
+}

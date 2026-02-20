@@ -1,0 +1,19 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as a placeholder for future backend logic.",
+  "feature_evidence.json": "Feature evidence report documenting four implemented features related to displaying the Shasvanth Tours & Travels logo, contact phone number, email, and rendering the logo as a static asset.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend source files describing the structure and purpose of each component and style file.",
+  "frontend/index.css": "Tailwind CSS configuration with OKLCH color system defining light and dark mode color variables for the application theme.",
+  "frontend/index.html": "HTML entry point that sets up the root div and loads the main TypeScript module for the React application.",
+  "frontend/src/App.tsx": "Root React component that composes Header, Hero, Services, and Footer components into a full-height flex layout.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying company logo, contact details (phone: 6382281842, email: shasvanthtoursandtravels@gmail.com), service links, social media icons, and attribution with UTM tracking.",
+  "frontend/src/components/Header.tsx": "Sticky header component with Shasvanth Tours & Travels logo and clickable contact information (phone and email) with responsive desktop and mobile layouts.",
+  "frontend/src/components/Hero.tsx": "Hero section with gradient background, company tagline, service description, and call-to-action buttons for phone and email contact.",
+  "frontend/src/components/Services.tsx": "Services showcase section displaying six travel service cards (cab booking, tour packages, train/bus/flight tickets, custom itineraries) with icons and hover effects.",
+  "frontend/src/hooks/useActor.ts": "React Query hook that creates and manages an authenticated or anonymous backend actor based on Internet Identity authentication state.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for managing Internet Identity authentication, including login, logout, and identity state management with AuthClient.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder hook that wraps useActor for future backend query implementations using React Query.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables for light and dark themes, defining colors for UI components (primary, secondary, accent, sidebar, charts, etc.) using OKLCH color space.",
+  "frontend/src/main.tsx": "React application entry point that sets up the root with QueryClient for data fetching and InternetIdentityProvider for authentication, then renders the App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration file that extends the default theme with custom colors mapped to CSS variables, border radius utilities, animations for accordions, and includes typography, container queries, and animate plugins.",
+  "project_state.json": "Project state file for Shasvanth Tours & Travels travel booking platform, tracking 4 completed features (logo and contact display) and 7 pending feature requests (cab, tour, train, bus, flight booking systems)."
+}

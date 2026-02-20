@@ -1,2 +1,3 @@
-# shasvanth-tour-s-and-travels
-Exported from Caffeine project: Shasvanth Tour's and Travels
+## Shasvanth Tour&#x27;s and Travels
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

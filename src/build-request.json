@@ -1,0 +1,85 @@
+{
+  "kind": "build_request",
+  "title": "Add company logo and contact details",
+  "projectName": "Shasvanth Tours and Travels",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Display the Shasvanth Tours & Travels logo prominently in the website header and app navigation",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "I need add my logo in the website and app"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Logo is visible in the header/navigation area",
+        "Logo maintains its aspect ratio and quality",
+        "Logo is clickable and navigates to home page"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Display contact phone number 6382281842 in the website footer and app contact section",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "I need my contact details 6382281842"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Phone number is displayed with appropriate formatting",
+        "Phone number is clickable and initiates a call on mobile devices"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Display contact email shasvanthtoursandtravels@gmail.com in the website footer and app contact section",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "shasvanthtoursandtravels@gmail.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Email address is displayed clearly",
+        "Email address is clickable and opens default email client"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Render the generated logo image as a static asset in frontend/public/assets/generated",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Logo image is stored in the correct directory",
+        "Logo is properly imported and displayed in components"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Implementing booking functionality in this request",
+    "Backend changes for contact information storage"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Shasvanth Tours & Travels logo with colorful peacock design on left, temple icon above 'h', golden-yellow text for 'Shasvanth', red text for 'Tours & Travels', and red paper plane icon on right, transparent background (shasvanth-logo.dim_800x300.png)"
+    ],
+    "edits": []
+  }
+}

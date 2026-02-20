@@ -1,0 +1,9 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the Header, Hero, Services sections, and Footer in a full-height flex layout.",
+  "frontend/src/components/Header.tsx": "Sticky header component displaying the Shasvanth Tours & Travels logo with clickable contact information (phone and email) for both desktop and mobile views.",
+  "frontend/src/components/Footer.tsx": "Comprehensive footer with company logo, contact details (phone and email), service links, social media icons, and attribution to caffeine.ai with UTM tracking.",
+  "frontend/src/components/Hero.tsx": "Hero section with gradient background, company tagline, description of services, and call-to-action buttons for phone and email contact.",
+  "frontend/src/components/Services.tsx": "Services showcase section displaying six travel service cards (cab booking, tour packages, train/bus/flight tickets, custom itineraries) with icons and descriptions.",
+  "frontend/src/index.css": "Global styles with OKLCH color system customized with warm golden-yellow primary colors (inspired by the logo) and blue accent colors for both light and dark modes.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for future React Query hooks to interact with backend services."
+}
